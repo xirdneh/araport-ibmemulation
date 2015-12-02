@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "name": "Science App",
+  "description": "This app emulates an IBM PC (model 5101)",
+  "html": "main.html",
+  "scripts": [
+    "scripts/aip-helper.js",
+    "scripts/main.js",
+    "scripts/pcjs/pc.js",
+    "scripts/pcjs/runner.js"
+  ],
+  "styles": [
+    "styles/main.css",
+    "styles/pcjs/components.css"
+  ]
+}

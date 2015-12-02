@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fdc id="fdcNEC" automount='{A: {name: "Hitchhikers Guide", path: "app/assets/disks/hhiker/hhiker-readonly.json"}}' padleft="8px" padbottom="8px" pos="left">
+    <control type="list" binding="listDrives"/>
+    <control type="list" binding="listDisks">
+        <disk path="">None</disk>
+        <manifest ref="app/assets/disks/hhiker/manifest.xml" disk="*"/>
+        <manifest ref="app/assets/disks/planet/manifest.xml" disk="*"/>
+        <manifest ref="app/assets/disks/zork1/manifest.xml" disk="*"/>
+        <manifest ref="app/assets/disks/zork2/manifest.xml" disk="*"/>
+        <manifest ref="app/assets/disks/zork3/manifest.xml" disk="*"/>
+    </control>
+    <control type="button" binding="loadDrive" padright="8px">Load</control>
+    <control type="description" binding="descDisk" padright="8px"/>
+</fdc>
